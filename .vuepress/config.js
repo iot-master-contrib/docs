@@ -7,23 +7,79 @@ module.exports = {
         smoothScroll: true,
         repo: 'zgwit/iot-master',
         docsRepo: 'zgwit/iot-master-docs',
-        docsBranch: 'main',
+        docsBranch: 'master',
         editLinks: true,
         editLinkText: '帮助我们改善此页面！',
         lastUpdated: '最后更新',
         nav: [
             {text: '首页', link: '/'},
             {text: '文档', link: '/docs/'},
-            {text: '下载', link: 'https://gitee.com/zgwit_labs/iot-master/releases'},
+            {text: '项目案例', link: '/case/'},
+            {text: '产品下载', link: 'https://gitee.com/zgwit_labs/iot-master/releases'},
             {text: '在线演示', link: 'http://demo.iot-master.com:8080'},
             {text: 'Gitee', link: 'https://gitee.com/zgwit_labs/iot-master/'},
         ],
         sidebar: {
             "/docs/": [
-                "/",
-                "hmi/",
-                "device/",
-            ]
+                "start/install",
+                "start/quick",
+                "start/config",
+                "start/compare",
+                "start/gateway",
+                {
+                    title: '通道',
+                    collapsable: false,
+                    children: [
+                        "tunnel/serial",
+                        "tunnel/tcp",
+                        "tunnel/udp",
+                        "tunnel/server",
+                        "tunnel/heartbeat",
+                        "tunnel/transfer",
+                    ]
+                },
+                {
+                    title: '协议',
+                    collapsable: false,
+                    children: [
+                        "protocol/modbus",
+                        "protocol/omron",
+                        "protocol/mitsubishi",
+                        "protocol/simatic",
+                    ]
+                },
+                {
+                    title: '设备',
+                    collapsable: false,
+                    children: [
+                        "device/poller",
+                        "device/calculator",
+                        "device/command",
+                        "device/alarm",
+                        "device/product",
+                        "device/history",
+                        "device/filter",
+                    ]
+                },
+                {
+                    title: '项目',
+                    collapsable: false,
+                    children: [
+                        "project/job",
+                        "project/aggregator",
+                        "project/strategy",
+                        "project/template",
+                    ]
+                },
+                {
+                    title: '组态',
+                    collapsable: false,
+                    children: [
+                        "hmi/editor",
+                        "hmi/component",
+                    ]
+                },
+            ],
         }
     }
 
