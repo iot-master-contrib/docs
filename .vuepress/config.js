@@ -13,10 +13,10 @@ module.exports = {
         lastUpdated: '最后更新',
         nav: [
             {text: '首页', link: '/'},
-            {text: '产品下载', link: 'https://gitee.com/zgwit_labs/iot-master/releases'},
             {text: '使用手册', link: '/manual/'},
             {text: '项目案例', link: '/cases/'},
             {text: '招贤纳士', link: '/jobs/'},
+            {text: '产品下载', link: 'https://gitee.com/zgwit_labs/iot-master/releases'},
             {text: '在线演示', link: 'http://demo.iot-master.com:8080'},
             {text: 'Gitee', link: 'https://gitee.com/zgwit_labs/iot-master/'},
         ],
