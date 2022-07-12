@@ -6,22 +6,22 @@ module.exports = {
         logo: '/iot.svg',
         smoothScroll: true,
         repo: 'zgwit/iot-master',
-        docsRepo: 'zgwit/iot-master-docs',
+        docsRepo: 'zgwit/iot-master-manual',
         docsBranch: 'master',
         editLinks: true,
         editLinkText: '帮助我们改善此页面！',
         lastUpdated: '最后更新',
         nav: [
             {text: '首页', link: '/'},
-            {text: '文档', link: '/docs/'},
-            {text: '项目案例', link: '/cases/'},
             {text: '产品下载', link: 'https://gitee.com/zgwit_labs/iot-master/releases'},
-            {text: '在线演示', link: 'http://demo.iot-master.com:8080'},
+            {text: '使用手册', link: '/manual/'},
+            {text: '项目案例', link: '/cases/'},
             {text: '招贤纳士', link: '/jobs/'},
+            {text: '在线演示', link: 'http://demo.iot-master.com:8080'},
             {text: 'Gitee', link: 'https://gitee.com/zgwit_labs/iot-master/'},
         ],
         sidebar: {
-            "/docs/": [
+            "/manual/": [
                 "start/install",
                 "start/quick",
                 "start/config",
