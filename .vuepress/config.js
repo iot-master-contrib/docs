@@ -14,9 +14,10 @@ module.exports = {
         nav: [
             {text: '首页', link: '/'},
             {text: '文档', link: '/docs/'},
-            {text: '项目案例', link: '/case/'},
+            {text: '项目案例', link: '/cases/'},
             {text: '产品下载', link: 'https://gitee.com/zgwit_labs/iot-master/releases'},
             {text: '在线演示', link: 'http://demo.iot-master.com:8080'},
+            {text: '招贤纳士', link: '/jobs/'},
             {text: 'Gitee', link: 'https://gitee.com/zgwit_labs/iot-master/'},
         ],
         sidebar: {
