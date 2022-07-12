@@ -6,7 +6,7 @@ module.exports = {
         logo: '/iot.svg',
         smoothScroll: true,
         repo: 'zgwit/iot-master',
-        docsRepo: 'zgwit/iot-master-manual',
+        docsRepo: 'zgwit/iot-master-docs',
         docsBranch: 'master',
         editLinks: true,
         editLinkText: '帮助我们改善此页面！',
