@@ -4,8 +4,8 @@ sidebar: false
 heroImage: /iot.svg
 heroText: 物联大师
 tagline: 把物联网实施变成一件简单的事
-actionText: 快速上手 →
-actionLink: /docs/start/quick
+actionText: 快速上手
+actionLink: /manual/start/quick
 features:
 - title: 开源免费
   details: 源代码开放，可以自由使用。代码质量可靠，不留后门。

@@ -22,11 +22,11 @@
 
 ## 项目架构图
 
-![结构图](https://iot-master.com/frame.svg)
+![结构图](./frame.svg)
 
 ## 组态编辑器（可视化）
 
-![云组态](https://iot-master.com/hmi-editor.png)
+![云组态](./hmi-editor.png)
 
 
 ### 数据库支持
