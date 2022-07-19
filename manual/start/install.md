@@ -1,15 +1,15 @@
 # 安装
 
-## 安装包下载
+##下载
 
-国内：https://gitee.com/zgwit_labs/iot-master/releases
+国内：[https://gitee.com/zgwit_labs/iot-master/releases](https://gitee.com/zgwit_labs/iot-master/releases)
 
-国外：https://github.com/zgwit/iot-master/releases
+国外：[https://github.com/zgwit/iot-master/releases](https://github.com/zgwit/iot-master/releases)
 
 
 目前只提供Windows和Linux的AMD64和ARM二进制包，其他平台或架构需要自行下载代码编译，具体参见build.sh
 
-由于项目是使用Golang编程语言，编译结果是单一二进制文件，可以直接运行程序。
+由于项目是使用Golang编程语言，编译结果是单一二进制文件，可以直接运行程序，不用Docker打包。
 
 程序内置数据库和时序数据库，不需要安装其他组件。
 
