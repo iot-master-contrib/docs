@@ -9,7 +9,7 @@ module.exports = {
         docsRepo: 'zgwit/iot-master-docs',
         docsBranch: 'master',
         editLinks: true,
-        editLinkText: '帮助我们改善此页面！',
+        editLinkText: '编辑此页',
         lastUpdated: '最后更新',
         nav: [
             {text: '首页', link: '/'},
