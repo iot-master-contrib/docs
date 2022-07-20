@@ -2,6 +2,17 @@ module.exports = {
     title: '物联大师',
     description: '物联大师是开源免费的物联网智能网关系统，集成了标准Modbus和主流PLC等多种协议，支持数据采集、公式计算、定时控制、自动控制、异常报警、流量监控、Web组态、远程调试等功能，适用于大部分物联网和工业互联网应用场景。',
     dest: 'docs',
+    head: [[
+        'script', {}, `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?b91dfa33eeae9fb968bd975b1b371237";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+            `
+    ]],
     themeConfig: {
         logo: '/iot.svg',
         smoothScroll: true,
