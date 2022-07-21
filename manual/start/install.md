@@ -1,6 +1,6 @@
 # 安装
 
-##下载
+## 下载
 
 国内：[https://gitee.com/zgwit_labs/iot-master/releases](https://gitee.com/zgwit_labs/iot-master/releases)
 

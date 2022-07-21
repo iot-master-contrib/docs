@@ -10,9 +10,15 @@ features:
 - title: 开源免费
   details: 源代码开放，可以自由使用。代码质量可靠，不留后门。
 - title: 边缘计算
-  details: 支持嵌入式架构，可以运行在智能网关或工控机上面。
+  details: 支持标准Modbus和主流PLC协议，支持智能网关。
 - title: 人机交互
   details: 通过Web组态直观展示设备运行状态，支持APP显示。
+- title: 规则引擎
+  details: 支持表达式计算，可以通过规则配置实现自动控制。
+- title: 异常报警
+  details: 实时检测异常，支持短信、语音、Webhook等多种通知方式。
+- title: 远程调试
+  details: 支持数据透传，用户可以通过虚拟TCP或虚拟串口远程调试设备。
 ---
 
 
@@ -21,7 +27,12 @@ features:
 - 邮箱：[jason@zgwit.com](mailto:jason@zgwit.com)
 - 手机：[15161515197](tel:15161515197)(微信同号)
 
+![微信](/jason.jpg)
+
+
+## 客户群
 ![微信群](/iot-master.png)
+
 
 
 ::: slot footer
