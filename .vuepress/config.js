@@ -33,6 +33,7 @@ module.exports = {
         ],
         sidebar: {
             "/manual/": [
+                "media",
                 "start/install",
                 "start/quick",
                 "start/config",
