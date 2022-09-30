@@ -27,8 +27,6 @@ features:
 - 邮箱：[jason@zgwit.com](mailto:jason@zgwit.com)
 - 手机：[15161515197](tel:15161515197)(微信同号)
 
-![微信](/jason.jpg)
-
 
 ## 微信群
 
